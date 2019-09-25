@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0.5%;
+    background-color: #78bbe6;
+    height: 10%;
+}
+#logo{
+    flex: auto;
+    height: 100%;
+    /* margin-top: 10%; */
+    /* margin-bottom: 10%; */
+}
+
+
+#search{
+    margin: 5%;
+    margin-left: 10%;
+    width: 50%;
+}
+
+#bookList{
+    table-layout: auto;
+    text-align:center;
+    width: 80%;
+    margin-top: 0%;
+    margin-left: 10%;
+}
+
+.ui.circular.icon.button{
+    background-color: #f99f48;
+    color: white;
+}
+.ui.circular.icon.button:hover{
+    background-color: #ff8c00;
+}
+
+.icon {
+    cursor: pointer;
+}
+

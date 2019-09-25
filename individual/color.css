@@ -1,0 +1,63 @@
+header{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0.5%;
+    background-color: #78bbe6;
+    height: 10%;
+}
+#logo{
+    flex: auto;
+    height: 100%;
+}
+
+
+
+
+
+h1{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#pageName{
+    vertical-align: middle;
+    display: inline;
+}
+#star{
+    color: #f99f48;
+    display: inline;
+}
+#starButton{
+    cursor: default;
+    background-color: white;
+    margin: 0%;
+}
+
+
+
+
+#bookInfo{
+    table-layout: auto;
+    text-align: left;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.bookInfoIndex{
+    background-color: whitesmoke;
+    width: 30%;
+}
+
+#selectButtons{
+    margin: 3%;
+    text-align: center;
+}
+
+#editButton{
+    cursor: pointer;
+    background-color: #f99f48;
+    color: white;
+}
+#editButton:hover{
+    background-color: #ff8c00;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- Standard Meta -->
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+<!-- Site Properties -->
+<title>individual</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+<link rel="stylesheet" type="text/css" href="color.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+<style>
+ .button {margin-top: 0.25em!important;}
+</style>
+</head>
+  
+<script type="text/javascript">
+    var data = [
+        {"id": "ID001","title": "坊っちゃん","tags": ["literature1","literature2"],"is_bookmark": true,
+        "memo": "親譲おやゆずりの無鉄砲むてっぽうで小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰こしを抜ぬかした事がある。なぜそんな無闇むやみをしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、同級生の一人が冗談じょうだんに、いくら威張いばっても、そこから飛び降りる事は出来まい。弱虫やーい。と囃はやしたからである。小使こづかいに負ぶさって帰って来た時、おやじが大きな眼めをして二階ぐらいから飛び降りて腰を抜かす奴やつがあるかと云いったから、この次は抜かさずに飛んで見せますと答えた。"
+        },
+        {"id": "ID002","title": "鼻","tags": ["literature"],"is_bookmark": false,"memo": "メモ"},
+        {"id": "ID003","title": "城の崎にて","tags": ["literature"],"is_bookmark": true,"memo": "メモ"},
+        {"id": "ID004","title": "蟹工船","tags": ["literature"],"is_bookmark": false,"memo": "メモ"},
+        {"id": "ID005","title": "雪国","tags": ["literature"],"is_bookmark": true,"memo": "メモ"}
+    ]
+</script>
+
+<script type="text/javascript" src="individual.js"></script>
+
+<body>
+    <header>
+        <img src="../images/logo.png" alt="logo" id="logo">
+    </header>
+    <h1><div id="pageName">書籍情報</div><button class="circular ui button" id="starButton"><div id="star"></div></button></h1>
+    <table id="bookInfo" class="ui celled table">
+        <tbody id='tableBody'>
+            <tr>
+                <td class="bookInfoIndex">タイトル</td>
+                <td><div id="title"></div><div id="star"></div></td>
+            </tr>
+            <tr>
+                <td class="bookInfoIndex">タグ</td>
+                <td><div class="tags" id="tags"></div></td>
+            </tr>
+            <tr>
+                <td class="bookInfoIndex">メモ</td>
+                <td><div id="memo"></div></td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="selectButtons">
+        <button class="ui labeled icon big button" id="cancelButton" onclick="goIndexPage();"><i class="backward icon"></i>戻る</button>
+        <button class="ui labeled icon big button" id="editButton" onclick="goEditPage();"><i class="edit icon"></i>編集する</button>
+    </div>
+
+</body>
+</html>

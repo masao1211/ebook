@@ -1,0 +1,22 @@
+[
+    {
+      "id"  : "123",
+      "name" : "http://placehold.jp/ff0000/ffffff/150x150.png",
+      "tag"   : "tag001"
+    },
+    {
+      "id":"345",
+      "name" : "http://placehold.jp/00ff00/ffffff/150x150.png",
+      "tag": ["tag001","tag002"]
+    },
+    {
+      "id":"567",
+      "name" : "http://placehold.jp/0000ff/ffffff/150x150.png",
+      "tag": ["tag001","tag003"]
+    },
+    {
+      "id":"567",
+      "name" : "http://placehold.jp/0000ff/ffffff/150x150.png",
+      "tag": ["tag001","tag003"]
+    }
+  ]
